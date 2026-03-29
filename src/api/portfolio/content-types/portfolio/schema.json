@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": { "singularName": "portfolio", "pluralName": "portfolios", "displayName": "Portfolio" },
+  "attributes": [
+    { "attribute": "title", "type": "string", "required": true },
+    { "attribute": "category", "type": "enumeration", "enum": ["All", "Film", "Commercial", "AI / FX", "Music Video"] },
+    { "attribute": "tag", "type": "string" },
+    { "attribute": "imageUrl", "type": "string" },
+    { "attribute": "videoUrl", "type": "string" },
+    { "attribute": "featured", "type": "boolean", "default": false },
+    { "attribute": "sortOrder", "type": "integer" }
+  ]
+}

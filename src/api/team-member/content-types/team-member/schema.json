@@ -1,0 +1,12 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_members",
+  "info": { "singularName": "team_member", "pluralName": "team_members", "displayName": "Team Member" },
+  "attributes": [
+    { "attribute": "name", "type": "string", "required": true },
+    { "attribute": "role", "type": "string" },
+    { "attribute": "imageUrl", "type": "string" },
+    { "attribute": "initials", "type": "string" },
+    { "attribute": "sortOrder", "type": "integer" }
+  ]
+}

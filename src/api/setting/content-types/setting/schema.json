@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": { "singularName": "setting", "pluralName": "settings", "displayName": "Site Settings" },
+  "attributes": [
+    { "attribute": "siteName", "type": "string" },
+    { "attribute": "tagline", "type": "string" },
+    { "attribute": "logoUrl", "type": "string" },
+    { "attribute": "primaryColor", "type": "string" },
+    { "attribute": "accentColor", "type": "string" },
+    { "attribute": "backgroundColor", "type": "string" },
+    { "attribute": "tickerItems", "type": "json" },
+    { "attribute": "clientLogos", "type": "json" }
+  ]
+}

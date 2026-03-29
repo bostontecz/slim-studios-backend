@@ -1,0 +1,29 @@
+{
+  "name": "slim-studios-strapi",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Headless CMS backend for SLIM Studios",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "4.20.0",
+    "@strapi/plugin-users-permissions": "4.20.0",
+    "@strapi/plugin-i18n": "4.20.0",
+    "better-sqlite3": "9.4.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "slim-studios-cms"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awards",
+  "info": { "singularName": "award", "pluralName": "awards", "displayName": "Award" },
+  "attributes": [
+    { "attribute": "title", "type": "string", "required": true },
+    { "attribute": "icon", "type": "string" },
+    { "attribute": "subtitle", "type": "string" },
+    { "attribute": "sortOrder", "type": "integer" }
+  ]
+}

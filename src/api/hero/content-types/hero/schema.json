@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "heroes",
+  "info": { "singularName": "hero", "pluralName": "heroes", "displayName": "Hero Section" },
+  "attributes": [
+    { "attribute": "eyebrow", "type": "string" },
+    { "attribute": "headline", "type": "string" },
+    { "attribute": "headlineHighlight", "type": "string" },
+    { "attribute": "tagline", "type": "text" },
+    { "attribute": "backgroundImage", "type": "string" },
+    { "attribute": "videoUrl", "type": "string" },
+    { "attribute": "stat1Number", "type": "string" },
+    { "attribute": "stat1Label", "type": "string" },
+    { "attribute": "stat2Number", "type": "string" },
+    { "attribute": "stat2Label", "type": "string" },
+    { "attribute": "stat3Number", "type": "string" },
+    { "attribute": "stat3Label", "type": "string" }
+  ]
+}

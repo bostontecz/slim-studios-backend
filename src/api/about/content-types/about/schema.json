@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": { "singularName": "about", "pluralName": "abouts", "displayName": "About Section" },
+  "attributes": [
+    { "attribute": "body1", "type": "text" },
+    { "attribute": "body2", "type": "text" },
+    { "attribute": "visionText", "type": "text" },
+    { "attribute": "missionText", "type": "text" },
+    { "attribute": "visionImage", "type": "string" },
+    { "attribute": "missionImage", "type": "string" },
+    { "attribute": "profileName", "type": "string" },
+    { "attribute": "profileRole", "type": "string" },
+    { "attribute": "profileImage", "type": "string" },
+    { "attribute": "stat1Number", "type": "string" },
+    { "attribute": "stat1Label", "type": "string" },
+    { "attribute": "stat2Number", "type": "string" },
+    { "attribute": "stat2Label", "type": "string" },
+    { "attribute": "stat3Number", "type": "string" },
+    { "attribute": "stat3Label", "type": "string" },
+    { "attribute": "stat4Number", "type": "string" },
+    { "attribute": "stat4Label", "type": "string" }
+  ]
+}

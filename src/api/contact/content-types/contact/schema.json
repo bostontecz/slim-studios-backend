@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": { "singularName": "contact", "pluralName": "contacts", "displayName": "Contact Info" },
+  "attributes": [
+    { "attribute": "address", "type": "text" },
+    { "attribute": "email", "type": "email" },
+    { "attribute": "phone", "type": "string" },
+    { "attribute": "facebookUrl", "type": "string" },
+    { "attribute": "instagramUrl", "type": "string" },
+    { "attribute": "youtubeUrl", "type": "string" },
+    { "attribute": "linkedinUrl", "type": "string" }
+  ]
+}
