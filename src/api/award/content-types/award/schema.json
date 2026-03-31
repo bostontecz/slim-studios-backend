@@ -1,11 +1,18 @@
 {
   "kind": "collectionType",
   "collectionName": "awards",
-  "info": { "singularName": "award", "pluralName": "awards", "displayName": "Award" },
+  "info": {
+    "singularName": "award",
+    "pluralName": "awards",
+    "displayName": "Award"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "title", "type": "string", "required": true },
-    { "attribute": "icon", "type": "string" },
-    { "attribute": "subtitle", "type": "string" },
-    { "attribute": "sortOrder", "type": "integer" }
+    { "type": "string", "attributeName": "title", "required": true },
+    { "type": "string", "attributeName": "icon" },
+    { "type": "string", "attributeName": "subtitle" },
+    { "type": "integer", "attributeName": "sortOrder" }
   ]
 }

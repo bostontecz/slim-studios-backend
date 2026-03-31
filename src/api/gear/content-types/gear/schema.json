@@ -1,13 +1,20 @@
 {
   "kind": "collectionType",
   "collectionName": "gears",
-  "info": { "singularName": "gear", "pluralName": "gears", "displayName": "Gear Item" },
+  "info": {
+    "singularName": "gear",
+    "pluralName": "gears",
+    "displayName": "Gear Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "title", "type": "string", "required": true },
-    { "attribute": "category", "type": "string" },
-    { "attribute": "imageUrl", "type": "string" },
-    { "attribute": "featured", "type": "boolean", "default": false },
-    { "attribute": "gridSpan", "type": "integer" },
-    { "attribute": "sortOrder", "type": "integer" }
+    { "type": "string", "attributeName": "title", "required": true },
+    { "type": "string", "attributeName": "category" },
+    { "type": "string", "attributeName": "imageUrl" },
+    { "type": "boolean", "attributeName": "featured", "default": false },
+    { "type": "integer", "attributeName": "gridSpan" },
+    { "type": "integer", "attributeName": "sortOrder" }
   ]
 }

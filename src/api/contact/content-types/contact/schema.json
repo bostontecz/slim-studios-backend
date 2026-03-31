@@ -1,14 +1,21 @@
 {
   "kind": "singleType",
   "collectionName": "contacts",
-  "info": { "singularName": "contact", "pluralName": "contacts", "displayName": "Contact Info" },
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "address", "type": "text" },
-    { "attribute": "email", "type": "email" },
-    { "attribute": "phone", "type": "string" },
-    { "attribute": "facebookUrl", "type": "string" },
-    { "attribute": "instagramUrl", "type": "string" },
-    { "attribute": "youtubeUrl", "type": "string" },
-    { "attribute": "linkedinUrl", "type": "string" }
+    { "type": "text", "attributeName": "address" },
+    { "type": "email", "attributeName": "email" },
+    { "type": "string", "attributeName": "phone" },
+    { "type": "string", "attributeName": "facebookUrl" },
+    { "type": "string", "attributeName": "instagramUrl" },
+    { "type": "string", "attributeName": "youtubeUrl" },
+    { "type": "string", "attributeName": "linkedinUrl" }
   ]
 }

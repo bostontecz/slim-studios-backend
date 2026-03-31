@@ -1,11 +1,18 @@
 {
   "kind": "collectionType",
   "collectionName": "processes",
-  "info": { "singularName": "process", "pluralName": "processes", "displayName": "Process Step" },
+  "info": {
+    "singularName": "process",
+    "pluralName": "processes",
+    "displayName": "Process Step"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "stepNumber", "type": "string", "required": true },
-    { "attribute": "title", "type": "string", "required": true },
-    { "attribute": "description", "type": "text" },
-    { "attribute": "sortOrder", "type": "integer" }
+    { "type": "string", "attributeName": "stepNumber", "required": true },
+    { "type": "string", "attributeName": "title", "required": true },
+    { "type": "text", "attributeName": "description" },
+    { "type": "integer", "attributeName": "sortOrder" }
   ]
 }

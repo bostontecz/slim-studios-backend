@@ -1,12 +1,19 @@
 {
   "kind": "collectionType",
   "collectionName": "team_members",
-  "info": { "singularName": "team_member", "pluralName": "team_members", "displayName": "Team Member" },
+  "info": {
+    "singularName": "team_member",
+    "pluralName": "team_members",
+    "displayName": "Team Member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "name", "type": "string", "required": true },
-    { "attribute": "role", "type": "string" },
-    { "attribute": "imageUrl", "type": "string" },
-    { "attribute": "initials", "type": "string" },
-    { "attribute": "sortOrder", "type": "integer" }
+    { "type": "string", "attributeName": "name", "required": true },
+    { "type": "string", "attributeName": "role" },
+    { "type": "string", "attributeName": "imageUrl" },
+    { "type": "string", "attributeName": "initials" },
+    { "type": "integer", "attributeName": "sortOrder" }
   ]
 }

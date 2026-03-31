@@ -1,24 +1,31 @@
 {
   "kind": "singleType",
   "collectionName": "abouts",
-  "info": { "singularName": "about", "pluralName": "abouts", "displayName": "About Section" },
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "body1", "type": "text" },
-    { "attribute": "body2", "type": "text" },
-    { "attribute": "visionText", "type": "text" },
-    { "attribute": "missionText", "type": "text" },
-    { "attribute": "visionImage", "type": "string" },
-    { "attribute": "missionImage", "type": "string" },
-    { "attribute": "profileName", "type": "string" },
-    { "attribute": "profileRole", "type": "string" },
-    { "attribute": "profileImage", "type": "string" },
-    { "attribute": "stat1Number", "type": "string" },
-    { "attribute": "stat1Label", "type": "string" },
-    { "attribute": "stat2Number", "type": "string" },
-    { "attribute": "stat2Label", "type": "string" },
-    { "attribute": "stat3Number", "type": "string" },
-    { "attribute": "stat3Label", "type": "string" },
-    { "attribute": "stat4Number", "type": "string" },
-    { "attribute": "stat4Label", "type": "string" }
+    { "type": "text", "attributeName": "body1" },
+    { "type": "text", "attributeName": "body2" },
+    { "type": "text", "attributeName": "visionText" },
+    { "type": "text", "attributeName": "missionText" },
+    { "type": "string", "attributeName": "visionImage" },
+    { "type": "string", "attributeName": "missionImage" },
+    { "type": "string", "attributeName": "profileName" },
+    { "type": "string", "attributeName": "profileRole" },
+    { "type": "string", "attributeName": "profileImage" },
+    { "type": "string", "attributeName": "stat1Number" },
+    { "type": "string", "attributeName": "stat1Label" },
+    { "type": "string", "attributeName": "stat2Number" },
+    { "type": "string", "attributeName": "stat2Label" },
+    { "type": "string", "attributeName": "stat3Number" },
+    { "type": "string", "attributeName": "stat3Label" },
+    { "type": "string", "attributeName": "stat4Number" },
+    { "type": "string", "attributeName": "stat4Label" }
   ]
 }

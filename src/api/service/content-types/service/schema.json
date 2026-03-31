@@ -1,16 +1,23 @@
 {
   "kind": "collectionType",
   "collectionName": "services",
-  "info": { "singularName": "service", "pluralName": "services", "displayName": "Service" },
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "title", "type": "string", "required": true },
-    { "attribute": "icon", "type": "string" },
-    { "attribute": "shortNumber", "type": "string" },
-    { "attribute": "description", "type": "text" },
-    { "attribute": "link", "type": "string" },
-    { "attribute": "isFeatured", "type": "boolean", "default": false },
-    { "attribute": "hasAiBadge", "type": "boolean", "default": false },
-    { "attribute": "aiBadgeText", "type": "string" },
-    { "attribute": "sortOrder", "type": "integer" }
+    { "type": "string", "attributeName": "title", "required": true },
+    { "type": "string", "attributeName": "icon" },
+    { "type": "string", "attributeName": "shortNumber" },
+    { "type": "text", "attributeName": "description" },
+    { "type": "string", "attributeName": "link" },
+    { "type": "boolean", "attributeName": "isFeatured", "default": false },
+    { "type": "boolean", "attributeName": "hasAiBadge", "default": false },
+    { "type": "string", "attributeName": "aiBadgeText" },
+    { "type": "integer", "attributeName": "sortOrder" }
   ]
 }

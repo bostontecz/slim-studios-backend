@@ -1,19 +1,26 @@
 {
   "kind": "singleType",
   "collectionName": "heroes",
-  "info": { "singularName": "hero", "pluralName": "heroes", "displayName": "Hero Section" },
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "Hero Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "eyebrow", "type": "string" },
-    { "attribute": "headline", "type": "string" },
-    { "attribute": "headlineHighlight", "type": "string" },
-    { "attribute": "tagline", "type": "text" },
-    { "attribute": "backgroundImage", "type": "string" },
-    { "attribute": "videoUrl", "type": "string" },
-    { "attribute": "stat1Number", "type": "string" },
-    { "attribute": "stat1Label", "type": "string" },
-    { "attribute": "stat2Number", "type": "string" },
-    { "attribute": "stat2Label", "type": "string" },
-    { "attribute": "stat3Number", "type": "string" },
-    { "attribute": "stat3Label", "type": "string" }
+    { "type": "string", "attributeName": "eyebrow" },
+    { "type": "string", "attributeName": "headline" },
+    { "type": "string", "attributeName": "headlineHighlight" },
+    { "type": "text", "attributeName": "tagline" },
+    { "type": "string", "attributeName": "backgroundImage" },
+    { "type": "string", "attributeName": "videoUrl" },
+    { "type": "string", "attributeName": "stat1Number" },
+    { "type": "string", "attributeName": "stat1Label" },
+    { "type": "string", "attributeName": "stat2Number" },
+    { "type": "string", "attributeName": "stat2Label" },
+    { "type": "string", "attributeName": "stat3Number" },
+    { "type": "string", "attributeName": "stat3Label" }
   ]
 }

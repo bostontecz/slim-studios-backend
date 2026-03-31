@@ -1,14 +1,21 @@
 {
   "kind": "collectionType",
   "collectionName": "portfolios",
-  "info": { "singularName": "portfolio", "pluralName": "portfolios", "displayName": "Portfolio" },
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "title", "type": "string", "required": true },
-    { "attribute": "category", "type": "enumeration", "enum": ["All", "Film", "Commercial", "AI / FX", "Music Video"] },
-    { "attribute": "tag", "type": "string" },
-    { "attribute": "imageUrl", "type": "string" },
-    { "attribute": "videoUrl", "type": "string" },
-    { "attribute": "featured", "type": "boolean", "default": false },
-    { "attribute": "sortOrder", "type": "integer" }
+    { "type": "string", "attributeName": "title", "required": true },
+    { "type": "enumeration", "attributeName": "category", "enum": ["All", "Film", "Commercial", "AI / FX", "Music Video"] },
+    { "type": "string", "attributeName": "tag" },
+    { "type": "string", "attributeName": "imageUrl" },
+    { "type": "string", "attributeName": "videoUrl" },
+    { "type": "boolean", "attributeName": "featured", "default": false },
+    { "type": "integer", "attributeName": "sortOrder" }
   ]
 }

@@ -1,15 +1,22 @@
 {
   "kind": "singleType",
   "collectionName": "settings",
-  "info": { "singularName": "setting", "pluralName": "settings", "displayName": "Site Settings" },
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Site Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
   "attributes": [
-    { "attribute": "siteName", "type": "string" },
-    { "attribute": "tagline", "type": "string" },
-    { "attribute": "logoUrl", "type": "string" },
-    { "attribute": "primaryColor", "type": "string" },
-    { "attribute": "accentColor", "type": "string" },
-    { "attribute": "backgroundColor", "type": "string" },
-    { "attribute": "tickerItems", "type": "json" },
-    { "attribute": "clientLogos", "type": "json" }
+    { "type": "string", "attributeName": "siteName" },
+    { "type": "string", "attributeName": "tagline" },
+    { "type": "string", "attributeName": "logoUrl" },
+    { "type": "string", "attributeName": "primaryColor" },
+    { "type": "string", "attributeName": "accentColor" },
+    { "type": "string", "attributeName": "backgroundColor" },
+    { "type": "json", "attributeName": "tickerItems" },
+    { "type": "json", "attributeName": "clientLogos" }
   ]
 }
